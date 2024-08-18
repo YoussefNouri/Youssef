@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div>
+        <p><h1>Hello ! My name is Youssef Nouri and This is my portfoliyo web page</h1></p>
+        </div>
+    </section>
+    <section id="about">
+        <div>
+            <p>Le Club Africain est l'un des clubs sportifs les plus prestigieux de Tunisie,
+                basé à Tunis et fondé en 1920. Il est surtout connu pour son équipe de football, 
+                qui évolue en première division du championnat tunisien. 
+                Le club arbore fièrement les couleurs rouge et blanc, symboles de son histoire et de son héritage. 
+                Au fil des décennies, le Club Africain a remporté de nombreux titres nationaux
+                ,y compris plusieurs championnats et coupes de Tunisie, ainsi que des distinctions internationales, 
+                telles que la Ligue des champions de la CAF en 1991. 
+                Il est également actif dans d'autres disciplines sportives, 
+                notamment le handball et le basket-ball, où il a également connu le succès. 
+                Le Club Africain est soutenu par une large base de fans passionnés, 
+                qui jouent un rôle important dans la ferveur et la popularité de cette institution sportive en Tunisie.
+            </p>
+            <img src="https://th.bing.com/th/id/OIP.sGvB3eLignDB8G_KgH8m7wHaPD?rs=1&pid=ImgDetMain" alt="Club Africain" width="500" height="500">
+        </div>
+    </section>
+    <section id="work">
+        <div>
+            <h4>Best courses online</h4>
+            <ul>
+                <li><a href="https://www.codecademy.com/learn/paths/web-development?utm_id=t_kwd-79783705699673:loc-227:ag_1276533622181007:cp_370314518:n_o:d_c&msclkid=7f5c2e9dc8aa1f22dfec485f8ef09bd7&utm_source=bing&utm_medium=cpc&utm_campaign=ROW%20Career%20Path%3A%20Pro%20-%20Exact&utm_term=learn%20web%20development&utm_content=web%20development">Developement Web course </a></li>
+                <li><a href="https://www.udemy.com/topic/c-programming/beginner/?utm_source=bing&utm_medium=udemyads&utm_campaign=BG-Search_DSA_GammaCatchall_NonP_la.EN_cc.ROW-English&campaigntype=Search&portfolio=Bing&language=EN&product=Course&test=&audience=DSA&topic=&priority=Gamma&utm_content=deal4584&utm_term=_._ag_1321615365041640_._ad__._kw_udemy_._de_c_._dm__._pl__._ti_dat-2334400625391429:loc-227_._li_154648_._pd__._&matchtype=b&msclkid=24b3997d53e51bcda4d3ffbf150ecfd7">C course</a></li>
+                <li><a href="https://www.coursera.org/courses?query=python&msockid=22595ffcac8c68a226884d2cade7699e">Python course</a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="resume">
+        <div>
+            <h4>Video to learn course of HTML, C or Python</h4>
+            <iframe src="https://www.youtube.com/watch?v=HGTJBPNC-Gw" width="500" height="600"></iframe>
+            <h4>Audio to enjoy yorself</h4>
+            <audio controls src="c:\Users\ny204\OneDrive\Documents\youtube\Html\Audio\nightfall-future-bass-music-228100.mp3"></audio>
+        </div>
+        <br>
+    </section>
+    <section id="contact">
+        <div>
+            <h1>Form to sign in our courses</h1>
+            <form action="Sign in">
+                <label for="Fname">First Name :</label>
+                <input type="text" name="fname" placeholder="Youssef">
+        </div>
+        <br>
+        <div>
+            <label for="Lname">Last Name :</label>
+            <input type="text" name="lname" placeholder="Nouri">
+        </div>
+        <br>
+        <div>
+            <label for="Bdate">Birth Date :</label>
+            <input type="date" name="bdate">
+        </div>
+        <br>
+        <div>
+            <label for="Man">Man</label>
+            <input type="radio" name="sexe" value="Man">
+            <label for="Woman">Woman</label>
+            <input type="radio" name="sexe" value="Woman">
+            <label for="Other">Other</label>
+            <input type="radio" name="sexe" value="Other">
+        </div>
+        <br>
+        <div>
+            <label for="Email">Email Address :</label>
+            <input type="email" name="email" placeholder="nouriy2003@gmail.com">
+        </div>
+        <br>
+        <div>
+            <label for="Password">Password :</label>
+            <input type="text" name="password" maxlength="12">
+        </div>
+        <br>
+        <div>
+            <label for="Phone Number">Phone Number :</label>
+            <input type="tel" name="phonenumber" placeholder="123-456-78">
+        </div>
+        <br>
+        <div>
+        <label for="FavCourse">Favourite Course :</label>
+        <select>
+            <option value="Development Web">Development Web</option>
+            <option value="Programing C">Programing C</option>
+            <option value="Python">Python</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="Payment">Payment :</label>
+        <label for="Omonth">1 month (80d)</label>
+        <input type="checkbox" name="omonth"><br>
+        <label for="Thmonths" style="margin-right: 54px;">3 months (250d)</label>
+        <input type="checkbox" name="thmonths"><br>
+        <label for="Twmonths" style="margin-right: 46px;">12 months (800d)</label>
+        <input type="checkbox" name="twmonths">
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div>
+    </form>
+    </section>
+</body>
+</html>
